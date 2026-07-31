@@ -18,7 +18,7 @@ focusing on *why* I made each decision, not just the final payload.
 ## Write-ups
 | Challenge | Category | Difficulty | Write-up |
 |-----------|----------|------------|----------|
-| 2FA bypass using a brute-force attack | Web | Medium | [Read](server_side_vulns/authentication/2FA_bypass_using_a_brute-force_attack/write-up.md) |
+| 2FA bypass using a brute-force attack | Web | Expert | [Read](server_side_vulns/authentication/2FA_bypass_using_a_brute-force_attack/write-up.md) |
 
 
 ## Structure
