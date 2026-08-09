@@ -20,6 +20,7 @@ focusing on *why* I made each decision, not just the final payload.
 |-----------|----------|------------|----------|
 | 2FA bypass using a brute-force attack | Web | Expert | [Read](server_side_vulns/authentication/2FA_bypass_using_a_brute-force_attack/write-up.md) |
 | Broken brute-force protection, multiple credentials per request | Web | Expert | [Read](server_side_vulns/authentication/broken_brute-force_protection_multiple_credentials_per_request/write-up.md) |
+| Bypassing access controls using email address parsing discrepancies | Web | Expert | [Read](server_side_vulns/business_logic/bypassing_access_controls_using_email_address_parsing_discrepancies/write-up.md) |
 
 ## Structure
 ```
@@ -29,6 +30,10 @@ server_side_vulns/
         ├── write-up.md
         └── images/
     └── broken_brute-force_protection_multiple_credentials_per_request/
+        ├── write-up.md
+        └── images/
+└── business_logic/
+    └── bypassing_access_controls_using_email_address_parsing_discrepancies/
         ├── write-up.md
         └── images/
 ```
