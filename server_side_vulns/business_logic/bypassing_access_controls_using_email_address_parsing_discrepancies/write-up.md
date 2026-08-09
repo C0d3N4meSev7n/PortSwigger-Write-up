@@ -74,7 +74,7 @@
     - `&AEA-` : represents the `@`
     - `&ACA-` : represents the `white-space`
 - After decoding it will be `attacker@exploit-0a7600fb0433e81682cad26d0151000e.exploit-server.net ?=@ginandjuice.shop`
-- When the validation system read it and see it ends with the domain `ginandjuice.shop` , considering as valid and pass the checking.
+- When the validation system reads it and sees that it ends with the domain `ginandjuice.shop` , it's considered as valid email and passes the check.
 - However, the actual mail delivery system automatically decodes the `encoded-word` before determining the destination address, after the encoded-word segment is decoded, the remaining part (`ginandjuice.shop`) remains attached, but because of the `white-space` inserted in the middle, the two parts are syntactically separated, this causes the mail server to interpret only the portion before the `white-space` (`attacker@exploit-0a7600fb0433e81682cad26d0151000e.exploit-server.net`)  as the actual recipient address, while treating `?=@ginandjuice.shop` as extraneous data or an invalid comment and ignoring it. Leading to sending verification link straight to my controlled server instead of the approved domain.
     
     ![image.png](images/image%209.png)
