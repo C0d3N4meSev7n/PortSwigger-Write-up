@@ -16,7 +16,7 @@
 
 - After accessing the lab, I can see a few buttons but based on the lab description and I’m not given any credential so I’ll go straight to the `Register` .
     
-    ![image.png](image.png)
+    ![image.png](images/image.png)
     
 - I try registering an account with my personal email, and the application shows an error message indicating that it only accepts email addresses ending with `@ginandjuice.shop`.
     
