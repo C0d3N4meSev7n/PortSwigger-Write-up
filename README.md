@@ -25,6 +25,7 @@ focusing on *why* I made each decision, not just the final payload.
 | Partial construction race conditions | Web | Expert | [Read](server_side_vulns/race_conditions/partial_construction_race_conditions/write-up.md) |
 | SSRF with whitelist-based input filter | Web | Expert | [Read](server_side_vulns/SSRF/SSRF_with_whitelist-based_input_filter/write-up.md) |
 | Exploiting XXE to retrieve data by repurposing a local DTD | Web | Expert | [Read](server_side_vulns/XXE/exploiting_XXE_to_retrieve_data_by_repurposing_a_local_DTD/write-up.md) |
+| Exploiting server-side parameter pollution in a REST URL | Web | Expert | [Read](server_side_vulns/API/Exploiting_server-side_parameter_pollution_in_a_REST_URL/write-up.md) |
 
 ## Structure
 ```
@@ -54,6 +55,10 @@ server_side_vulns/
         └── images/
 └── XXE/
     └── exploiting_XXE_to_retrieve_data_by_repurposing_a_local_DTD/
+        ├── write-up.md
+        └── images/
+└── API/
+    └── Exploiting_server-side_parameter_pollution_in_a_REST_URL/
         ├── write-up.md
         └── images/
 ```
