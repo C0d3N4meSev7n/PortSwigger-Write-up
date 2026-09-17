@@ -26,6 +26,7 @@ focusing on *why* I made each decision, not just the final payload.
 | SSRF with whitelist-based input filter | Web | Expert | [Read](server_side_vulns/SSRF/SSRF_with_whitelist-based_input_filter/write-up.md) |
 | Exploiting XXE to retrieve data by repurposing a local DTD | Web | Expert | [Read](server_side_vulns/XXE/exploiting_XXE_to_retrieve_data_by_repurposing_a_local_DTD/write-up.md) |
 | Exploiting server-side parameter pollution in a REST URL | Web | Expert | [Read](server_side_vulns/API/Exploiting_server-side_parameter_pollution_in_a_REST_URL/write-up.md) |
+| Exploiting exact-match cache rules for web cache deception | Web | Expert | [Read](server_side_vulns/web_cache_deception/exploiting_exact-match_cache_rules_for_web_cache_deception/write-up.md) |
 
 ## Structure
 ```
@@ -59,6 +60,10 @@ server_side_vulns/
         └── images/
 └── API/
     └── Exploiting_server-side_parameter_pollution_in_a_REST_URL/
+        ├── write-up.md
+        └── images/
+└── web_cache_deception/
+    └── exploiting_exact-match_cache_rules_for_web_cache_deception/
         ├── write-up.md
         └── images/
 ```
