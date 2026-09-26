@@ -252,7 +252,7 @@
     
     ![image.png](images/image%208.png)
     
-- Go to that path and I have this piece of code. This class is serializable and appears to correspond to the object used in the session cookie.. But this class has nothing that I can manipulate.
+- Go to that path and I have this piece of code. This class is serializable and appears to correspond to the object used in the session cookie. But this class has nothing that I can manipulate.
     
     ```java
     package data.session.token;
@@ -409,7 +409,7 @@
             //...because product field is transient
             inputStream.defaultReadObject();
     			  
-    			  //Create a database connection to PostgreSQL
+            //Create a database connection to PostgreSQL
             JdbcConnectionBuilder connectionBuilder = JdbcConnectionBuilder.from(
                     "org.postgresql.Driver",
                     "postgresql",
@@ -497,7 +497,7 @@
     
     ![image.png](images/image%2021.png)
     
-- Since the objective is to obtain the administrator's password, I focus on the users table. I use this payload to retrieve all column names: `' or cast((select string_agg(column_name, ',') from information_schema.columns where table_name = 'users') as int) ='1`
+- Since the objective is to obtain the administrator's password, I focus on the `users` table. I use this payload to retrieve all column names: `' or cast((select string_agg(column_name, ',') from information_schema.columns where table_name = 'users') as int) ='1`
 - And now I have `username`, `password` and `email`.
     
     ![image.png](images/image%2022.png)
@@ -511,7 +511,7 @@
     
     ![image.png](images/image%2025.png)
     
-- Then login as administrator.
+- Then log in as administrator.
     
     ![image.png](images/image%2026.png)
     
