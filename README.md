@@ -28,6 +28,7 @@ focusing on *why* I made each decision, not just the final payload.
 | Exploiting server-side parameter pollution in a REST URL | Web | Expert | [Read](server_side_vulns/API/Exploiting_server-side_parameter_pollution_in_a_REST_URL/write-up.md) |
 | Exploiting exact-match cache rules for web cache deception | Web | Expert | [Read](server_side_vulns/web_cache_deception/exploiting_exact-match_cache_rules_for_web_cache_deception/write-up.md) |
 | Developing a custom gadget chain for Java deserialization | Web | Expert | [Read](advanced_topics/insecure_deserialization/developing_a_custom_gadget_chain_for_Java_deserialization/write-up.md) |
+| Developing a custom gadget chain for PHP deserialization | Web | Expert | [Read](advanced_topics/insecure_deserialization/developing_a_custom_gadget_chain_for_PHP_deserialization/write-up.md) |
 
 ## Structure
 ```
@@ -70,6 +71,9 @@ server_side_vulns/
 advanced_topics/
 └── insecure_deserialization/
     └── developing_a_custom_gadget_chain_for_Java_deserialization/
+        ├── write-up.md
+        └── images/
+    └── developing_a_custom_gadget_chain_for_PHP_deserialization/
         ├── write-up.md
         └── images/
 ```
