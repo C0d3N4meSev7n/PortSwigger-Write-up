@@ -29,6 +29,7 @@ focusing on *why* I made each decision, not just the final payload.
 | Exploiting exact-match cache rules for web cache deception | Web | Expert | [Read](server_side_vulns/web_cache_deception/exploiting_exact-match_cache_rules_for_web_cache_deception/write-up.md) |
 | Developing a custom gadget chain for Java deserialization | Web | Expert | [Read](advanced_topics/insecure_deserialization/developing_a_custom_gadget_chain_for_Java_deserialization/write-up.md) |
 | Developing a custom gadget chain for PHP deserialization | Web | Expert | [Read](advanced_topics/insecure_deserialization/developing_a_custom_gadget_chain_for_PHP_deserialization/write-up.md) |
+| Server-side template injection in a sandboxed environment | Web | Expert | [Read](advanced_topics/SSTI/server-side_template_injection_in_a_sandboxed_environment/write-up.md) |
 
 ## Structure
 ```
@@ -74,6 +75,10 @@ advanced_topics/
         ├── write-up.md
         └── images/
     └── developing_a_custom_gadget_chain_for_PHP_deserialization/
+        ├── write-up.md
+        └── images/
+└── SSTI/
+    └── server-side_template_injection_in_a_sandboxed_environment/
         ├── write-up.md
         └── images/
 ```
