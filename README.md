@@ -35,6 +35,7 @@ focusing on *why* I made each decision, not just the final payload.
 | Developing a custom gadget chain for PHP deserialization | Web | Expert | [Read](advanced_topics/insecure_deserialization/developing_a_custom_gadget_chain_for_PHP_deserialization/write-up.md) |
 | Server-side template injection in a sandboxed environment | Web | Expert | [Read](advanced_topics/SSTI/server-side_template_injection_in_a_sandboxed_environment/write-up.md) |
 | Server-side template injection with a custom exploit | Web | Expert | [Read](advanced_topics/SSTI/server-side_template_injection_with_a_custom_exploit/write-up.md) |
+| JWT authentication bypass via algorithm confusion | Web | Expert | [Read](advanced_topics/JWT/JWT_authentication_bypass_via_algorithm_confusion/write-up.md) |
 
 ## Structure
 ```
@@ -87,6 +88,10 @@ advanced_topics/
         ├── write-up.md
         └── images/
     └── server-side_template_injection_with_a_custom_exploit/
+        ├── write-up.md
+        └── images/
+└── JWT/
+    └── JWT_authentication_bypass_via_algorithm_confusion/
         ├── write-up.md
         └── images/
 ```
