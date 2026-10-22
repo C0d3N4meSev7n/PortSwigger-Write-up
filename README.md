@@ -28,6 +28,12 @@ focusing on *why* I made each decision, not just the final payload.
 | Exploiting XXE to retrieve data by repurposing a local DTD | Web | Expert | [Read](server_side_vulns/XXE/exploiting_XXE_to_retrieve_data_by_repurposing_a_local_DTD/write-up.md) |
 | Exploiting server-side parameter pollution in a REST URL | Web | Expert | [Read](server_side_vulns/API/Exploiting_server-side_parameter_pollution_in_a_REST_URL/write-up.md) |
 | Exploiting exact-match cache rules for web cache deception | Web | Expert | [Read](server_side_vulns/web_cache_deception/exploiting_exact-match_cache_rules_for_web_cache_deception/write-up.md) |
+
+### Client-Side Vulnerabilities
+| Challenge | Category | Difficulty | Write-up |
+|-----------|----------|------------|----------|
+| Reflected XSS with event handlers and href attributes blocked | Web | Expert | [Read](client_side_vulns/XSS/reflected_XSS_with_event_handlers_and_href_attributes_blocked/write-up.md) |
+
 ### Advanced Topics
 | Challenge | Category | Difficulty | Write-up |
 |-----------|----------|------------|----------|
@@ -74,6 +80,11 @@ server_side_vulns/
         └── images/
 └── web_cache_deception/
     └── exploiting_exact-match_cache_rules_for_web_cache_deception/
+        ├── write-up.md
+        └── images/
+client_side_vulns/
+└── XSS/
+    └── reflected_XSS_with_event_handlers_and_href_attributes_blocked/
         ├── write-up.md
         └── images/
 advanced_topics/
