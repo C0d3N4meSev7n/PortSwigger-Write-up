@@ -33,6 +33,7 @@ focusing on *why* I made each decision, not just the final payload.
 | Challenge | Category | Difficulty | Write-up |
 |-----------|----------|------------|----------|
 | Reflected XSS with event handlers and href attributes blocked | Web | Expert | [Read](client_side_vulns/XSS/reflected_XSS_with_event_handlers_and_href_attributes_blocked/write-up.md) |
+| Reflected XSS in a JavaScript URL with some characters blocked | Web | Expert | [Read](client_side_vulns/XSS/reflected_XSS_in_a_JavaScript_URL_with_some_characters_blocked/write-up.md) |
 
 ### Advanced Topics
 | Challenge | Category | Difficulty | Write-up |
@@ -85,6 +86,9 @@ server_side_vulns/
 client_side_vulns/
 └── XSS/
     └── reflected_XSS_with_event_handlers_and_href_attributes_blocked/
+        ├── write-up.md
+        └── images/
+    └── reflected_XSS_in_a_JavaScript_URL_with_some_characters_blocked/
         ├── write-up.md
         └── images/
 advanced_topics/
