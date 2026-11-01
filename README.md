@@ -13,8 +13,6 @@
 ## About
 I'm a self-taught web application security learner working toward a career as a web penetration tester. This repo collects my work on the PortSwigger Web Security Academy: in-depth write-ups of Expert labs that walk through my reasoning and end with root cause analysis, with solution notes for the other levels on the way.
 
-The goal is to show *why* I made each decision, not just the final payload.
-
 ## Write-ups
 ### Server-Side Vulnerabilities
 | Topic | Challenge | Difficulty |
