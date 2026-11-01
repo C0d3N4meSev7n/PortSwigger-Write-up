@@ -1,14 +1,15 @@
 ![Status](https://img.shields.io/badge/status-in--progress-yellow)
 ![Category](https://img.shields.io/badge/category-web--exploitation-blue)
 
-# PortSwigger Write-Ups & Solution Notes
+# PortSwigger Write-Ups & Quick Solutions
 
 > I'm showing the way I solve challenges, not just giving the solution.
 
 ## Table of Contents
 - [About](#about)
 - [Write-ups](#write-ups)
-- [Solution Notes](#solution-notes)
+- [Quick Solutions](#quick-solutions)
+- [Notes](#notes)
 
 ## About
 I'm a self-taught web application security learner working toward a career as a web penetration tester. This repo collects my work on the PortSwigger Web Security Academy: in-depth write-ups of Expert labs that walk through my reasoning and end with root cause analysis, with solution notes for the other levels on the way.
@@ -43,10 +44,15 @@ I'm a self-taught web application security learner working toward a career as a 
 | JWT attacks | [JWT authentication bypass via algorithm confusion](advanced_topics/JWT/JWT_authentication_bypass_via_algorithm_confusion/write-up.md) | Expert |
 | JWT attacks | [JWT authentication bypass via algorithm confusion with no exposed key](advanced_topics/JWT/JWT_authentication_bypass_via_algorithm_confusion_with_no_exposed_key/write-up.md) | Expert |
 
-## Solution Notes
+## Quick Solutions
 ```http
 HTTP/1.1 200 OK
 Content-Type: text/plain
 
-Solution notes for Practitioner and Apprentice labs are in progress. Please wait...
+Quick Solutions for Practitioner and Apprentice labs are in progress. Please wait...
 ```
+
+## Notes
+
+- Write-ups are for educational purposes and portfolio use. Techniques shown were performed only against PortSwigger's Web Security Academy labs.
+- Within each section, entries are listed in chronological order, with the newest at the bottom.
