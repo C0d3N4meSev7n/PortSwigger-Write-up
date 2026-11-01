@@ -8,7 +8,7 @@
 ## Table of Contents
 - [About](#about)
 - [Write-ups](#write-ups)
-
+- [Solution Notes](#solution-notes)
 
 ## About
 I'm a self-taught web application security learner working toward a career as a web penetration tester. This repo collects my work on the PortSwigger Web Security Academy: in-depth write-ups of Expert labs that walk through my reasoning and end with root cause analysis, with solution notes for the other levels on the way.
@@ -50,5 +50,5 @@ The goal is to show *why* I made each decision, not just the final payload.
 HTTP/1.1 202 Accepted
 Content-Type: text/plain
 
-Solution notes for other levels are in progress. Please wait...
+Solution notes for Practitioner and Apprentice labs are in progress. Please wait...
 ```
