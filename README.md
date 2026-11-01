@@ -1,116 +1,54 @@
 ![Status](https://img.shields.io/badge/status-in--progress-yellow)
 ![Category](https://img.shields.io/badge/category-web--exploitation-blue)
 
-# PortSwigger Expert Write-Ups
+# PortSwigger Write-Ups & Solution Notes
 
 > I'm showing the way I solve challenges, not just giving the solution.
 
 ## Table of Contents
 - [About](#about)
 - [Write-ups](#write-ups)
-- [Structure](#structure)
+
 
 ## About
-I'm an aspiring web application penetration tester. 
-This repo documents my problem-solving process through PortSwigger labs — 
-focusing on *why* I made each decision, not just the final payload.
+I'm a self-taught web application security learner working toward a career as a web penetration tester. This repo collects my work on the PortSwigger Web Security Academy: in-depth write-ups of Expert labs that walk through my reasoning and end with root cause analysis, with solution notes for the other levels on the way.
+
+The goal is to show *why* I made each decision, not just the final payload.
 
 ## Write-ups
 ### Server-Side Vulnerabilities
-| Challenge | Category | Difficulty | Write-up |
-|-----------|----------|------------|----------|
-| 2FA bypass using a brute-force attack | Web | Expert | [Read](server_side_vulns/authentication/2FA_bypass_using_a_brute-force_attack/write-up.md) |
-| Broken brute-force protection, multiple credentials per request | Web | Expert | [Read](server_side_vulns/authentication/broken_brute-force_protection_multiple_credentials_per_request/write-up.md) |
-| Bypassing access controls using email address parsing discrepancies | Web | Expert | [Read](server_side_vulns/business_logic/bypassing_access_controls_using_email_address_parsing_discrepancies/write-up.md) |
-| Web shell upload via race condition | Web | Expert | [Read](server_side_vulns/file_upload/web_shell_upload_via_race_condition/write-up.md) |
-| Partial construction race conditions | Web | Expert | [Read](server_side_vulns/race_conditions/partial_construction_race_conditions/write-up.md) |
-| SSRF with whitelist-based input filter | Web | Expert | [Read](server_side_vulns/SSRF/SSRF_with_whitelist-based_input_filter/write-up.md) |
-| Exploiting XXE to retrieve data by repurposing a local DTD | Web | Expert | [Read](server_side_vulns/XXE/exploiting_XXE_to_retrieve_data_by_repurposing_a_local_DTD/write-up.md) |
-| Exploiting server-side parameter pollution in a REST URL | Web | Expert | [Read](server_side_vulns/API/Exploiting_server-side_parameter_pollution_in_a_REST_URL/write-up.md) |
-| Exploiting exact-match cache rules for web cache deception | Web | Expert | [Read](server_side_vulns/web_cache_deception/exploiting_exact-match_cache_rules_for_web_cache_deception/write-up.md) |
+| Topic | Challenge | Category | Difficulty |
+|-------|-----------|----------|------------|
+| Authentication | [2FA bypass using a brute-force attack](server_side_vulns/authentication/2FA_bypass_using_a_brute-force_attack/write-up.md) | Web | Expert |
+| Authentication | [Broken brute-force protection, multiple credentials per request](server_side_vulns/authentication/broken_brute-force_protection_multiple_credentials_per_request/write-up.md) | Web | Expert |
+| Business logic vulnerabilities | [Bypassing access controls using email address parsing discrepancies](server_side_vulns/business_logic/bypassing_access_controls_using_email_address_parsing_discrepancies/write-up.md) | Web | Expert |
+| File upload vulnerabilities | [Web shell upload via race condition](server_side_vulns/file_upload/web_shell_upload_via_race_condition/write-up.md) | Web | Expert |
+| Race conditions | [Partial construction race conditions](server_side_vulns/race_conditions/partial_construction_race_conditions/write-up.md) | Web | Expert |
+| Server-side request forgery (SSRF) | [SSRF with whitelist-based input filter](server_side_vulns/SSRF/SSRF_with_whitelist-based_input_filter/write-up.md) | Web | Expert |
+| XML external entity (XXE) injection | [Exploiting XXE to retrieve data by repurposing a local DTD](server_side_vulns/XXE/exploiting_XXE_to_retrieve_data_by_repurposing_a_local_DTD/write-up.md) | Web | Expert |
+| API testing | [Exploiting server-side parameter pollution in a REST URL](server_side_vulns/API/Exploiting_server-side_parameter_pollution_in_a_REST_URL/write-up.md) | Web | Expert |
+| Web cache deception | [Exploiting exact-match cache rules for web cache deception](server_side_vulns/web_cache_deception/exploiting_exact-match_cache_rules_for_web_cache_deception/write-up.md) | Web | Expert |
 
 ### Client-Side Vulnerabilities
-| Challenge | Category | Difficulty | Write-up |
-|-----------|----------|------------|----------|
-| Reflected XSS with event handlers and href attributes blocked | Web | Expert | [Read](client_side_vulns/XSS/reflected_XSS_with_event_handlers_and_href_attributes_blocked/write-up.md) |
-| Reflected XSS in a JavaScript URL with some characters blocked | Web | Expert | [Read](client_side_vulns/XSS/reflected_XSS_in_a_JavaScript_URL_with_some_characters_blocked/write-up.md) |
+| Topic | Challenge | Category | Difficulty |
+|-------|-----------|----------|------------|
+| Cross-site scripting (XSS) | [Reflected XSS with event handlers and href attributes blocked](client_side_vulns/XSS/reflected_XSS_with_event_handlers_and_href_attributes_blocked/write-up.md) | Web | Expert |
+| Cross-site scripting (XSS) | [Reflected XSS in a JavaScript URL with some characters blocked](client_side_vulns/XSS/reflected_XSS_in_a_JavaScript_URL_with_some_characters_blocked/write-up.md) | Web | Expert |
 
 ### Advanced Topics
-| Challenge | Category | Difficulty | Write-up |
-|-----------|----------|------------|----------|
-| Developing a custom gadget chain for Java deserialization | Web | Expert | [Read](advanced_topics/insecure_deserialization/developing_a_custom_gadget_chain_for_Java_deserialization/write-up.md) |
-| Developing a custom gadget chain for PHP deserialization | Web | Expert | [Read](advanced_topics/insecure_deserialization/developing_a_custom_gadget_chain_for_PHP_deserialization/write-up.md) |
-| Server-side template injection in a sandboxed environment | Web | Expert | [Read](advanced_topics/SSTI/server-side_template_injection_in_a_sandboxed_environment/write-up.md) |
-| Server-side template injection with a custom exploit | Web | Expert | [Read](advanced_topics/SSTI/server-side_template_injection_with_a_custom_exploit/write-up.md) |
-| JWT authentication bypass via algorithm confusion | Web | Expert | [Read](advanced_topics/JWT/JWT_authentication_bypass_via_algorithm_confusion/write-up.md) |
-| JWT authentication bypass via algorithm confusion with no exposed key | Web | Expert | [Read](advanced_topics/JWT/JWT_authentication_bypass_via_algorithm_confusion_with_no_exposed_key/write-up.md) |
+| Topic | Challenge | Category | Difficulty |
+|-------|-----------|----------|------------|
+| Insecure deserialization | [Developing a custom gadget chain for Java deserialization](advanced_topics/insecure_deserialization/developing_a_custom_gadget_chain_for_Java_deserialization/write-up.md) | Web | Expert |
+| Insecure deserialization | [Developing a custom gadget chain for PHP deserialization](advanced_topics/insecure_deserialization/developing_a_custom_gadget_chain_for_PHP_deserialization/write-up.md) | Web | Expert |
+| Server-side template injection (SSTI)  | [Server-side template injection in a sandboxed environment](advanced_topics/SSTI/server-side_template_injection_in_a_sandboxed_environment/write-up.md) | Web | Expert |
+| Server-side template injection (SSTI) | [Server-side template injection with a custom exploit](advanced_topics/SSTI/server-side_template_injection_with_a_custom_exploit/write-up.md) | Web | Expert |
+| JWT attacks | [JWT authentication bypass via algorithm confusion](advanced_topics/JWT/JWT_authentication_bypass_via_algorithm_confusion/write-up.md) | Web | Expert |
+| JWT attacks | [JWT authentication bypass via algorithm confusion with no exposed key](advanced_topics/JWT/JWT_authentication_bypass_via_algorithm_confusion_with_no_exposed_key/write-up.md) | Web | Expert |
 
-## Structure
-```
-server_side_vulns/
-└── authentication/
-    └── 2FA_bypass_using_a_brute-force_attack/
-        ├── write-up.md
-        └── images/
-    └── broken_brute-force_protection_multiple_credentials_per_request/
-        ├── write-up.md
-        └── images/
-└── business_logic/
-    └── bypassing_access_controls_using_email_address_parsing_discrepancies/
-        ├── write-up.md
-        └── images/
-└── file_upload/
-    └── web_shell_upload_via_race_condition/
-        ├── write-up.md
-        └── images/
-└── race_conditions/
-    └── partial_construction_race_conditions/
-        ├── write-up.md
-        └── images/
-└── SSRF/
-    └── SSRF_with_whitelist-based_input_filter/
-        ├── write-up.md
-        └── images/
-└── XXE/
-    └── exploiting_XXE_to_retrieve_data_by_repurposing_a_local_DTD/
-        ├── write-up.md
-        └── images/
-└── API/
-    └── Exploiting_server-side_parameter_pollution_in_a_REST_URL/
-        ├── write-up.md
-        └── images/
-└── web_cache_deception/
-    └── exploiting_exact-match_cache_rules_for_web_cache_deception/
-        ├── write-up.md
-        └── images/
-client_side_vulns/
-└── XSS/
-    └── reflected_XSS_with_event_handlers_and_href_attributes_blocked/
-        ├── write-up.md
-        └── images/
-    └── reflected_XSS_in_a_JavaScript_URL_with_some_characters_blocked/
-        ├── write-up.md
-        └── images/
-advanced_topics/
-└── insecure_deserialization/
-    └── developing_a_custom_gadget_chain_for_Java_deserialization/
-        ├── write-up.md
-        └── images/
-    └── developing_a_custom_gadget_chain_for_PHP_deserialization/
-        ├── write-up.md
-        └── images/
-└── SSTI/
-    └── server-side_template_injection_in_a_sandboxed_environment/
-        ├── write-up.md
-        └── images/
-    └── server-side_template_injection_with_a_custom_exploit/
-        ├── write-up.md
-        └── images/
-└── JWT/
-    └── JWT_authentication_bypass_via_algorithm_confusion/
-        ├── write-up.md
-        └── images/
-    └── JWT_authentication_bypass_via_algorithm_confusion_with_no_exposed_key/
-        ├── write-up.md
-        └── images/
+## Solution Notes
+```http
+HTTP/1.1 202 Accepted
+Content-Type: text/plain
+
+Solution notes for other levels are in progress. Please wait...
 ```
