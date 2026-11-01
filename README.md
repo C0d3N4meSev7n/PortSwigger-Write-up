@@ -45,7 +45,7 @@ I'm a self-taught web application security learner working toward a career as a 
 
 ## Solution Notes
 ```http
-HTTP/1.1 202 Accepted
+HTTP/1.1 200 OK
 Content-Type: text/plain
 
 Solution notes for Practitioner and Apprentice labs are in progress. Please wait...
