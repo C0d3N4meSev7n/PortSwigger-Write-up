@@ -12,7 +12,7 @@
 - [Notes](#notes)
 
 ## About
-I'm a self-taught web application security learner working toward a career as a web penetration tester. This repo collects my work on the PortSwigger Web Security Academy: in-depth write-ups of Expert labs that walk through my reasoning and end with root cause analysis, with solution notes for the other levels on the way.
+I'm a self-taught web application security learner working toward a career as a web penetration tester. This repo collects my work on the PortSwigger Web Security Academy: in-depth write-ups of Expert labs that walk through my reasoning and end with root cause analysis, with quick solutions for the other levels on the way.
 
 ## Write-ups
 ### Server-Side Vulnerabilities
@@ -49,7 +49,7 @@ I'm a self-taught web application security learner working toward a career as a 
 HTTP/1.1 200 OK
 Content-Type: text/plain
 
-Quick Solutions for Practitioner and Apprentice labs are in progress. Please wait...
+Quick solutions for Practitioner and Apprentice labs are in progress. Please wait...
 ```
 
 ## Notes
