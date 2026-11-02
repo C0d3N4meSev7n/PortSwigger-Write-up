@@ -33,6 +33,7 @@ I'm a self-taught web application security learner working toward a career as a 
 |-------|-----------|------------|
 | Cross-site scripting (XSS) | [Reflected XSS with event handlers and href attributes blocked](client_side_vulns/XSS/reflected_XSS_with_event_handlers_and_href_attributes_blocked/write-up.md) | Expert |
 | Cross-site scripting (XSS) | [Reflected XSS in a JavaScript URL with some characters blocked](client_side_vulns/XSS/reflected_XSS_in_a_JavaScript_URL_with_some_characters_blocked/write-up.md) | Expert |
+| Cross-site scripting (XSS) | [Reflected XSS with AngularJS sandbox escape without strings](client_side_vulns/XSS/reflected_XSS_with_AngularJS_sandbox_escape_without_strings/write-up.md) | Expert |
 
 ### Advanced Topics
 | Topic | Challenge | Difficulty |
