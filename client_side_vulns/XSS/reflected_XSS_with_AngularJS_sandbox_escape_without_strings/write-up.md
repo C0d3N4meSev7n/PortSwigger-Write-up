@@ -1,10 +1,8 @@
 # XSS 3
 
----
 
 ## **Reflected XSS with AngularJS sandbox escape without strings - Expert**
 
----
 
 ### Description:
 
